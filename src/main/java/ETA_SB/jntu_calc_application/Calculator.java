@@ -20,5 +20,9 @@ public class Calculator {
 	public double doRem (double num1,double num2 ) {
 		return num1 % num2;
 	}
+	public void calc(){
+		// nothing here
+		System.out.println("You are working with Calci");
+	}
 
 }
