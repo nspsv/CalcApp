@@ -24,7 +24,9 @@ public class CalculatorServlet extends HttpServlet {
     	{
     		doPost(request, response);
     	}
+    @Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
 		PrintWriter out = response.getWriter();
 		String n1 = request.getParameter("no1");
 		String n2 = request.getParameter("no2");
